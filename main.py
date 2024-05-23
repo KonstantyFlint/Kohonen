@@ -50,5 +50,5 @@ if __name__ == "__main__":
     args = [int(arg) for arg in args]
     width, height, iterations, gauss_lambda = args
     print(width, height, iterations, gauss_lambda)
-    # 30, 30, 30000, 4
+    # 10, 10, 30000, 4
     fit(width, height, iterations, gauss_lambda)
